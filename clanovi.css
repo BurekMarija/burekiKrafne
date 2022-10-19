@@ -1,0 +1,63 @@
+@media(min-width:701px) and (max-width:999px){
+    .box_clanovi{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:1000px){
+    .box_clanovi{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(max-width:700px){
+    .box_clanovi{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+body{
+    background-color: cadetblue;
+}
+
+.box_clanovi{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.clan{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-color: white;
+    padding: 5px;
+}
+
+.clan img{
+    width: 200px;
+    align-items: center;
+    transition: opacity, 2s;
+    transition: width, 2s;
+    opacity:0.7;
+    
+}
+
+.clan img:hover{
+    opacity:1;
+    width: 205px;
+}
+
+.dodaj_clana{
+    margin: 30px;
+}
+.button_dodaj_clana{
+    display: block;
+    margin: auto;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(14, 91, 89);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+
+body{
+    background-color: cadetblue;
+    
+}
+.box_login{
+    
+    padding: 10px;
+    background-color:darkcyan;
+    margin: auto;
+    margin-top: 100px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+#lozinka, #korisnicko_ime, #ulogiraj{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+#ulogiraj{
+    margin-top: 20px;
+    background-color: rgb(14, 91, 89);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}

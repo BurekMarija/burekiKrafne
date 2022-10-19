@@ -1,0 +1,33 @@
+body{
+   background-color: cadetblue;
+}
+.prazan{
+   
+   background-image: url("glavne_slike/22568574.webp");
+   background-color: cadetblue;
+
+   height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   opacity: 0.6;
+   z-index: -1;
+
+}
+.tekst_glavni{
+   
+   position: absolute;
+   text-align: center;
+   top:40%;
+   left:40%;
+   color: rgb(0, 0, 0);
+   
+  
+   
+}
+
+
+
+
+

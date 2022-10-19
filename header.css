@@ -1,0 +1,34 @@
+.box_navigacija {
+   background-color: white;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .box_navigacija img{
+    height: 40px;
+ }
+
+ .nav_home, .nav_clanovi, .nav_o_nama, .nav_gluposti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+ }
+
+ .nav_home img, .nav_clanovi img, .nav_o_nama img, .nav_gluposti img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35px;
+ }
+
+
+ 
